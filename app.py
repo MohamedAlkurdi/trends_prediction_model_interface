@@ -93,7 +93,7 @@ def main():
     st.subheader("1.1 - Original dataset")
     st.markdown("The dataset below was our starting point and contains data for news snippets collected from around the world, along with information about news interactions, their date, source, and more.")
     st.markdown("Dataset: [Daily Global Trends 2020 on Kaggle](https://www.kaggle.com/datasets/thedevastator/daily-global-trends-2020-insights-on-popularity)")
-    st.write(original_dataset)
+    st.write(original_dataset.head())
     
     space() 
     
