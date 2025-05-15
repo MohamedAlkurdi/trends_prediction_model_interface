@@ -1,0 +1,16 @@
+country_trend,2012_2017_MAE,similiar_direction,with_regressors_MAE
+usa_entertainment,5.307462001524865,1,0
+canada_entertainment,7.45059887033449,1,6.313809563965264
+australia_entertainment,10.095152817809188,1,9.435311724446194
+usa_intellectualism,21.565182413197856,1,20.544544040473003
+canada_intellectualism,4.3178053305193735,1,0
+australia_intellectualism,7.584518512000173,1,0
+usa_nutrition,9.474407827746756,1,0
+canada_nutrition,9.362577073163273,1,0
+australia_nutrition,7.541372016012747,1,0
+usa_politics,24.60884529352456,0,10.381891890285619
+canada_politics,13.942664852658453,0,0
+australia_politics,27.310586071155146,0,0
+usa_economics,9.331367184298374,1,0
+canada_economics,5.880696078670059,0,0
+australia_economics,7.0921920139574635,1,0
