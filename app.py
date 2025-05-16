@@ -109,7 +109,7 @@ def main():
     space()
 
     st.subheader("1.2.1 - Output example")
-    st.write(original_dataset_split_output_example)
+    st.write(original_dataset_split_output_example.head())
 
     space()
 
@@ -210,13 +210,13 @@ def main():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.write(initial_classification_output_example1)
+        st.write(initial_classification_output_example1.head())
 
     with col2:
-        st.write(initial_classification_output_example2)
+        st.write(initial_classification_output_example2.head())
 
     with col3:
-        st.write(initial_classification_output_example3)
+        st.write(initial_classification_output_example3.head())
 
     space()
 
@@ -236,13 +236,13 @@ def main():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.write(clustered_classification_output_example1)
+        st.write(clustered_classification_output_example1.head())
 
     with col2:
-        st.write(clustered_classification_output_example2)
+        st.write(clustered_classification_output_example2.head())
 
     with col3:
-        st.write(clustered_classification_output_example3)
+        st.write(clustered_classification_output_example3.head())
 
     st.markdown("Now, that how a topic-country trend might look like:")
     st.image(os.path.join(IMAGES_DIR, "initial_classification_output_visual.png"))
@@ -261,13 +261,13 @@ def main():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.write(clustered_classified_data_with_relative_traffic_rates1)
+        st.write(clustered_classified_data_with_relative_traffic_rates1.head())
 
     with col2:
-        st.write(clustered_classified_data_with_relative_traffic_rates2)
+        st.write(clustered_classified_data_with_relative_traffic_rates2.head())
 
     with col3:
-        st.write(clustered_classified_data_with_relative_traffic_rates3)
+        st.write(clustered_classified_data_with_relative_traffic_rates3.head())
 
     st.markdown("Here is the visualization of normalized data:")
     st.image(os.path.join(IMAGES_DIR, "general_labeled_data_with_relative_traffice_rate_visual_example.png"))
@@ -356,7 +356,7 @@ def main():
 
     st.subheader("6.1.1 - Output examples")
     example =initial_prophet_model_results.drop("with_regressors_MAE",axis=1)
-    st.write(example)
+    st.write(example.head())
     
     space()
     
@@ -370,7 +370,7 @@ def main():
     
     st.subheader("6.2.1 - Output examples")
     st.markdown("Optimized performance after adding regressors")
-    st.write(initial_prophet_model_results)
+    st.write(initial_prophet_model_results.head())
     space()
     
     st.subheader("6.3 - Country-Topic Trend Prediction Models")
