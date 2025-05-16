@@ -523,7 +523,6 @@ def main():
     - **Real-time Forecasting**: Develop an API that provides continuously updated forecasts as new data becomes available
     - **More Topic Categories**: Add specialized categories in emerging areas of interest.
     - **Longer Time Horizons**: Collect more historical data to enable longer-term forecasting (2+ years)
-    - **More Topic Categories**: Add specialized categories in emerging areas of interest (e.g., AI, cryptocurrency)
     - **Additional Countries**: Extend the model to include more countries across different continents
     """)
 
