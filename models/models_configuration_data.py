@@ -108,8 +108,8 @@ models_data_center = [
         "regressors": [],
     },
     {
-        "identifier": "canada_economics",
-        "country":"canada",
+        "identifier": "usa_economics",
+        "country":"usa",
         "topic":"economics",
         "country_trend_data_path": "/models_data/Economy/extended_data/usa.csv",
         "regressors": [
