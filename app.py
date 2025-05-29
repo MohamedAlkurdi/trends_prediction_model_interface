@@ -59,7 +59,7 @@ def space(height=1):
 
 def main():
 
-    st.title("🧮 Audience Interest Trend Forecasting Based on Their Geographical Location")
+    st.title("🧮 TARGET AUDIENCE INTEREST TEND PREDICTION MODEL")
 
     space(3)
     
