@@ -415,13 +415,20 @@ def main():
     st.subheader("🌏 Select a Country")
 
     supported_countries = ['usa', 'Canada', 'Australia']
-    available_topics = ['entertainment', 'intellectualism', 'nutrition',"politics","economics"]
-    
+    available_topics = ['entertainment', 'intellectualism', 'nutrition', "politics", "economics"]
+
+    # Create a mapping for display/choropleth purposes
+    country_name_map = {
+        'usa': 'United States',
+        'Canada': 'Canada',
+        'Australia': 'Australia'
+    }
+
     # Create a dataframe with country names
     world_data = px.data.gapminder().query("year==2007")
 
     # Add a column to indicate if country is supported
-    world_data['is_supported'] = world_data['country'].isin(supported_countries)
+    world_data['is_supported'] = world_data['country'].isin([country_name_map[c] for c in supported_countries])
 
     # Create the choropleth map
     fig = px.choropleth(
